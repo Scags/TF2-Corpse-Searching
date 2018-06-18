@@ -57,7 +57,6 @@ public void OnPluginStart()
 public void OnMapStart()
 {
 	PrecacheSound("weapons/default_reload.wav");
-	FindConVar("tf_arena_use_queue").SetInt(0);
 }
 
 public void OnClientPutInServer(int client)
